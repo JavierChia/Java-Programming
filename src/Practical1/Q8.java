@@ -1,4 +1,3 @@
-
 package Practical1;
 
 import java.util.Scanner;
@@ -19,7 +18,6 @@ public class Q8 {
         
         seconds = input%60;
         
-        System.out.println("\n     Time Convertor\n\nTotal Seconds: " + input + "\nHours: " + hours + "\nMinutes: " + minutes + "\nSeconds: "+ seconds);
-        
+        System.out.println("\n     Time Convertor\n\nTotal Seconds: " + input + "\nHours:         " + hours + "\nMinutes:       " + minutes + "\nSeconds:       "+ seconds);
     }
 }

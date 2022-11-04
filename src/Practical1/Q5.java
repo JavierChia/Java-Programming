@@ -7,11 +7,8 @@ public class Q5 {
     public static void main(String[] agrc) {
         Scanner myObj = new Scanner(System.in);
         int i = 1;
-        double score, newScore, aScore;
-
-//        System.out.print("Enter score #" + i +" (or enter -1 to stop) : " );
-//        score = myObj.nextInt();
-        score = 0;
+        double newScore, aScore;
+        double score = 0;
         newScore = score;
 
         while (score != -1) {
@@ -22,7 +19,6 @@ public class Q5 {
             if (score == -1) {
                 newScore += 1;
             }
-
         }
         aScore = newScore / (i - 2);
         String grade;

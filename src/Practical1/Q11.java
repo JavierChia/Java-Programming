@@ -14,7 +14,7 @@ public class Q11 {
         
         do{
         
-        System.out.print("Enter grade for module #"+ i +"(or enter 0 to stop) :");
+        System.out.print("Enter grade for module #"+ i +"(or enter 0 to stop) : ");
         grade = myObj.nextLine();
         
         if(grade.equals("A")) {
@@ -45,7 +45,7 @@ public class Q11 {
         
         GPA = Tpts/tcredU;
         
-        System.out.println("\n\n\nYour total Credit units: " + tcredU +"\nYour GPA is " + String.format("%.2f", GPA));
+        System.out.println("\n\nYour total Credit units: " + tcredU +"\nYour GPA is " + String.format("%.2f", GPA));
     }
     
 }

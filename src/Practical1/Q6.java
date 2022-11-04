@@ -1,15 +1,12 @@
-
 package Practical1;
-
-
 
 public class Q6 {
     static void myMethod1() {
-    System.out.println("**************************");
+    System.out.println("************************************************");
     }
     
     static void myMethod2() {
-        System.out.println("       Jeremy Teo\nAge      : 17\nSex      : Helicopter\nLocation : West Virginia\nMarital Status : Divorced");
+        System.out.println("         John Tan\nAge      : Forever 21!\nSex      : Male\nLocation : Singapore\nMarital Status     : Single and always available");
     }
     public static void main(String[] argc){
         myMethod1();

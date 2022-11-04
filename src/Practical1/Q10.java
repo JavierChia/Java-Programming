@@ -11,7 +11,7 @@ public class Q10 {
 
         highest = intArray[0];
         for (int i = 0; i < intArray.length;i++) {
-            System.out.print("Enter value for intArray[" + i + "] ->");
+            System.out.print("Enter value for intArray[" + i + "] -> ");
             value = myObj.nextInt();
             intArray[i] = value;
             if(intArray[i] > highest){
@@ -21,3 +21,4 @@ public class Q10 {
     }
     
 }
+

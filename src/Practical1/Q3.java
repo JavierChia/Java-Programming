@@ -23,13 +23,13 @@ public class Q3 {
         BMI = weight / (height*height);
         String x;
         if (BMI<18.5) {
-           x = "underweight";
+           x = "Underweight";
         } else if (BMI < 24.9) {
-           x = "normal";
+           x = "Normal";
         } else {
-            x = "overweight";
+            x = "Overweight";
         }
-        System.out.println("Your BMI is " + BMI + " and you are " + x);
+        System.out.println("Your BMI is " + String.format("%.1f", BMI)+ " and you are " + x);
 
     }
 

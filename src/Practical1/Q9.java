@@ -1,19 +1,19 @@
 package Practical1;
 
-
 public class Q9 {
 
     public static void main(String[] argc) {
-        int i,oddEven;
+        int i;
+        int [] numberArray = new int[100];
         System.out.println("-= Display contents of numberArray[] =-");
-        for (i = 0; i < 100; i++){
+        for (i = 0; i <numberArray.length; i++){
             if (i%2==0) {
-                oddEven = 1;
+                numberArray[i] = 1;
             }
             else {
-                oddEven = 2;
+                numberArray[i]= 2;
             }
-            System.out.println("numberArray[" + i + "] = " + oddEven);
+            System.out.println("numberArray[" + i + "] = " + numberArray[i]);
         }
     }
 }
